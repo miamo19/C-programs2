@@ -13,7 +13,8 @@ int main() {
     switch(operation)
     {
         case '+':
-            printf("%.1lf + %.1lf = %.1lf",n1, n2, n1+n2);
+           
+            printf("%.2lf + %.2lf = %.2lf ", n1, n2, n1+n2);
             break;
 
         case '-':
