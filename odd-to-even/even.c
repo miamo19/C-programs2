@@ -9,5 +9,7 @@ int main() {
     scanf("%d", &num2);
     
     (num % 2 == 0) ? printf("%d is even.", num) : printf("%d is odd.", num);
+    
+    (num2 % 2 == 0) ? printf("%d is even.", num2) : printf("%d is odd.", num2);
     return 0;
 }
